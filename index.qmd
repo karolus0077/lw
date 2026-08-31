@@ -3,13 +3,12 @@ title: ""
 page-layout: full
 ---
 
-<div class="lw-hero">
-
 <div class="lw-hero-title">
 
-
-#LABORATORIUM 
-#WIEDZY
+<h1 class="lw-company-name">
+  LABORATORIUM<br>
+  WIEDZY
+</h1>
 
 <div class="lw-tagline">
 
