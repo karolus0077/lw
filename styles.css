@@ -1,0 +1,416 @@
+/* =========================================================
+   LABORATORIUM WIEDZY
+   Główny styl strony
+   ========================================================= */
+
+
+/* ---------- KOLORY ---------- */
+
+:root {
+  --lw-dark: #02091f;
+  --lw-cream: #f4f3ee;
+  --lw-blue: #163be3;
+  --lw-pink: #ff4166;
+  --lw-gray: #8f949f;
+}
+
+
+/* ---------- CAŁA STRONA ---------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--lw-cream);
+  color: var(--lw-dark);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+/* Quarto - pełna szerokość strony */
+
+#quarto-content {
+  padding: 0;
+}
+
+main.content {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-layout-full .content {
+  max-width: none;
+}
+
+
+/* ---------- KOLORY TEKSTU ---------- */
+
+.blue-text {
+  color: var(--lw-blue);
+}
+
+.pink-text {
+  color: var(--lw-pink);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.lw-hero {
+  min-height: 82vh;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr 0.75fr;
+  gap: 3rem;
+  align-items: center;
+
+  padding: 5rem 5vw;
+  box-sizing: border-box;
+
+  background: var(--lw-cream);
+  border: 14px solid var(--lw-dark);
+
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* ---------- WIELKI TYTUŁ ---------- */
+
+.lw-hero-title h1 {
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(4rem, 8vw, 9rem);
+  line-height: 0.82;
+  letter-spacing: -0.04em;
+
+  margin: 0;
+  padding: 0;
+
+  color: var(--lw-dark);
+  text-transform: uppercase;
+}
+
+
+/* ---------- HASŁO ---------- */
+
+.lw-tagline {
+  margin-top: 3rem;
+
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  line-height: 1.25;
+
+  max-width: 520px;
+}
+
+.lw-tagline::before {
+  content: "";
+  display: block;
+
+  width: 55px;
+  height: 5px;
+
+  background: var(--lw-dark);
+
+  margin-bottom: 1.3rem;
+}
+
+
+/* =========================================================
+   CENTRALNA GRAFIKA
+   ========================================================= */
+
+.lw-hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  min-height: 480px;
+}
+
+
+/* na razie placeholder - później wstawimy kolaż */
+
+.visual-placeholder {
+  width: 100%;
+  min-height: 420px;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--lw-blue) 0%,
+      var(--lw-blue) 42%,
+      var(--lw-dark) 42%,
+      var(--lw-dark) 72%,
+      var(--lw-pink) 72%,
+      var(--lw-pink) 100%
+    );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+  box-sizing: border-box;
+
+  color: white;
+
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  transform: rotate(-2deg);
+}
+
+
+/* dekoracyjny niebieski okrąg */
+
+.lw-hero-visual::before {
+  content: "";
+
+  position: absolute;
+
+  width: 210px;
+  height: 210px;
+
+  border-radius: 50%;
+
+  background: var(--lw-blue);
+
+  top: 0;
+  right: -40px;
+
+  z-index: 0;
+}
+
+
+/* dekoracyjny różowy element */
+
+.lw-hero-visual::after {
+  content: "";
+
+  position: absolute;
+
+  width: 150px;
+  height: 40px;
+
+  background: var(--lw-pink);
+
+  top: -10px;
+  left: 30px;
+
+  transform: rotate(-12deg);
+
+  z-index: 2;
+}
+
+
+/* =========================================================
+   USŁUGI / PRAWA KOLUMNA
+   ========================================================= */
+
+.lw-services {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.service-item {
+  padding: 1.6rem 0;
+
+  border-bottom: 1px solid var(--lw-dark);
+}
+
+.service-item:first-child {
+  border-top: 1px solid var(--lw-dark);
+}
+
+.service-number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.service-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.05;
+
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   NAWIGACJA - DUŻE KAFLE
+   ========================================================= */
+
+.lw-navigation {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  background: var(--lw-dark);
+
+  padding: 0;
+  margin: 0;
+}
+
+
+/* pojedynczy kafel */
+
+.nav-card {
+  min-height: 300px;
+
+  padding: 2.5rem 2rem;
+
+  background: var(--lw-dark);
+  color: var(--lw-cream);
+
+  border-right: 1px solid rgba(255,255,255,0.25);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.nav-card:last-child {
+  border-right: none;
+}
+
+.nav-card:hover {
+  background: var(--lw-blue);
+  color: white;
+
+  transform: translateY(-8px);
+}
+
+.nav-card h3 {
+  color: var(--lw-pink);
+
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.nav-card h2 {
+  color: inherit;
+
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+
+  font-size: clamp(1.5rem, 2vw, 2.4rem);
+
+  line-height: 1;
+  letter-spacing: 0.01em;
+
+  text-transform: uppercase;
+}
+
+.nav-card p {
+  color: inherit;
+
+  opacity: 0.75;
+
+  margin-top: 2rem;
+}
+
+
+/* =========================================================
+   LINKI
+   ========================================================= */
+
+a {
+  color: var(--lw-blue);
+}
+
+a:hover {
+  color: var(--lw-pink);
+}
+
+
+/* =========================================================
+   WERSJA TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .lw-hero {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lw-services {
+    grid-column: 1 / -1;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 2rem;
+  }
+
+  .service-item {
+    padding: 1.4rem;
+
+    border-top: 1px solid var(--lw-dark);
+    border-right: 1px solid var(--lw-dark);
+  }
+
+  .lw-navigation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* =========================================================
+   TELEFON
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .lw-hero {
+    display: block;
+
+    border-width: 7px;
+
+    padding: 3rem 1.5rem;
+  }
+
+  .lw-hero-title h1 {
+    font-size: clamp(4rem, 20vw, 6.5rem);
+  }
+
+  .lw-tagline {
+    margin-bottom: 3rem;
+  }
+
+  .lw-hero-visual {
+    min-height: auto;
+
+    margin-bottom: 3rem;
+  }
+
+  .visual-placeholder {
+    min-height: 320px;
+  }
+
+  .lw-services {
+    display: block;
+  }
+
+  .service-item {
+    border-right: none;
+  }
+
+  .lw-navigation {
+    display: block;
+  }
+
+  .nav-card {
+    min-height: 220px;
+
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+  }
+
+}
