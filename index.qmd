@@ -7,10 +7,10 @@ page-layout: full
 
 <div class="lw-hero-title">
 
-<h1 class="lw-main-title">
+<div class="lw-main-title">
   <span class="lw-title-small">LABORATORIUM</span>
   <span class="lw-title-big">WIEDZY</span>
-</h1>
+</div>
 
 <div class="lw-tagline">
 
