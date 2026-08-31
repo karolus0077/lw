@@ -1,0 +1,117 @@
+---
+title: ""
+page-layout: full
+---
+
+<div class="lw-hero">
+
+<div class="lw-hero-title">
+
+# LABORATORIUM  
+# WIEDZY
+
+<div class="lw-tagline">
+
+Pomagamy przekształcać  
+<span class="blue-text">dane w wiedzę,</span>  
+a wiedzę w <span class="pink-text">wartość.</span>
+
+</div>
+
+</div>
+
+<div class="lw-hero-visual">
+
+<div class="visual-placeholder">
+
+MIEJSCE NA GŁÓWNĄ  
+GRAFIKĘ / KOLAŻ
+
+</div>
+
+</div>
+
+<div class="lw-services">
+
+<div class="service-item">
+<span class="service-number blue-text">01</span>
+
+### Analizy danych
+</div>
+
+<div class="service-item">
+<span class="service-number pink-text">02</span>
+
+### Konsulting
+</div>
+
+<div class="service-item">
+<span class="service-number blue-text">03</span>
+
+### Konferencje naukowe
+</div>
+
+<div class="service-item">
+<span class="service-number pink-text">04</span>
+
+### Publikacje naukowe
+</div>
+
+</div>
+
+</div>
+
+
+<div class="lw-navigation">
+
+<div class="nav-card">
+
+### 01
+
+## AKTUALNOŚCI
+
+Najnowsze informacje i wydarzenia.
+
+</div>
+
+<div class="nav-card">
+
+### 02
+
+## KONFERENCJE NAUKOWE
+
+Konferencje, wystąpienia i wydarzenia.
+
+</div>
+
+<div class="nav-card">
+
+### 03
+
+## PUBLIKACJE NAUKOWE
+
+Artykuły, raporty i publikacje.
+
+</div>
+
+<div class="nav-card">
+
+### 04
+
+## O NAS
+
+Poznaj Laboratorium Wiedzy.
+
+</div>
+
+<div class="nav-card">
+
+### 05
+
+## KONTAKT
+
+Skontaktuj się z nami.
+
+</div>
+
+</div>
