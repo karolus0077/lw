@@ -8,8 +8,8 @@ page-layout: full
 <div class="lw-hero-title">
 
 
-LABORATORIUM 
-WIEDZY
+#LABORATORIUM 
+#WIEDZY
 
 <div class="lw-tagline">
 
