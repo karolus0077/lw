@@ -415,26 +415,37 @@ a:hover {
 
 }
 
+/* ---------- TYTUŁ LABORATORIUM WIEDZY ---------- */
+
 .lw-main-title {
-  margin: 0 0 45px 0;
+  margin: 0;
   padding: 0;
-  color: #050b20;
-  line-height: 1;
+
+  color: var(--lw-dark);
+  text-transform: uppercase;
+
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
 }
 
 .lw-title-small {
   display: block;
-  font-size: 31px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
   font-weight: 800;
-  letter-spacing: 6px;
+
+  letter-spacing: 0.18em;
   line-height: 1;
-  margin-bottom: 12px;
+
+  margin-bottom: 18px;
 }
 
 .lw-title-big {
   display: block;
-  font-size: 110px;
+
+  font-size: clamp(5rem, 8vw, 9rem);
   font-weight: 900;
-  line-height: 0.85;
-  letter-spacing: -4px;
+
+  line-height: 0.8;
+  letter-spacing: -0.04em;
 }
