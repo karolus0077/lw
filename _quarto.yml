@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Laboratorium Wiedzy"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Start
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
