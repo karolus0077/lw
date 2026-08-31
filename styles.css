@@ -414,3 +414,27 @@ a:hover {
   }
 
 }
+
+.lw-main-title {
+  margin: 0 0 45px 0;
+  padding: 0;
+  color: #050b20;
+  line-height: 1;
+}
+
+.lw-title-small {
+  display: block;
+  font-size: 31px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.lw-title-big {
+  display: block;
+  font-size: 110px;
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -4px;
+}
