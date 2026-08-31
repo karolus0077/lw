@@ -3,12 +3,12 @@ title: ""
 page-layout: full
 ---
 
+<div class="lw-hero">
+
 <div class="lw-hero-title">
 
-<h1 class="lw-company-name">
-  LABORATORIUM<br>
-  WIEDZY
-</h1>
+# LABORATORIUM  
+# WIEDZY
 
 <div class="lw-tagline">
 
@@ -66,6 +66,7 @@ GRAFIKĘ / KOLAŻ
 
 <div class="nav-card">
 
+
 ## AKTUALNOŚCI
 
 Najnowsze informacje i wydarzenia.
@@ -74,6 +75,7 @@ Najnowsze informacje i wydarzenia.
 
 <div class="nav-card">
 
+
 ## KONFERENCJE NAUKOWE
 
 Konferencje, wystąpienia i wydarzenia.
@@ -81,6 +83,7 @@ Konferencje, wystąpienia i wydarzenia.
 </div>
 
 <div class="nav-card">
+
 
 ## PUBLIKACJE NAUKOWE
 
@@ -105,6 +108,8 @@ Poznaj Laboratorium Wiedzy.
 </div>
 
 <div class="nav-card">
+
+### 05
 
 ## KONTAKT
 
