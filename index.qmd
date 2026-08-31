@@ -7,8 +7,10 @@ page-layout: full
 
 <div class="lw-hero-title">
 
-# LABORATORIUM  
-# WIEDZY
+<h1 class="lw-main-title">
+  <span class="lw-title-small">LABORATORIUM</span>
+  <span class="lw-title-big">WIEDZY</span>
+</h1>
 
 <div class="lw-tagline">
 
@@ -109,7 +111,6 @@ Poznaj Laboratorium Wiedzy.
 
 <div class="nav-card">
 
-### 05
 
 ## KONTAKT
 
