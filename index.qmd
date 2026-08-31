@@ -42,13 +42,13 @@ GRAFIKĘ / KOLAŻ
 <div class="service-item">
 <span class="service-number pink-text">02</span>
 
-### Konsulting
+### Konsulting biznesowy
 </div>
 
 <div class="service-item">
 <span class="service-number blue-text">03</span>
 
-### Konferencje naukowe
+### Międzynarodowe konferencje naukowe
 </div>
 
 <div class="service-item">
@@ -66,8 +66,6 @@ GRAFIKĘ / KOLAŻ
 
 <div class="nav-card">
 
-### 01
-
 ## AKTUALNOŚCI
 
 Najnowsze informacje i wydarzenia.
@@ -75,8 +73,6 @@ Najnowsze informacje i wydarzenia.
 </div>
 
 <div class="nav-card">
-
-### 02
 
 ## KONFERENCJE NAUKOWE
 
@@ -86,8 +82,6 @@ Konferencje, wystąpienia i wydarzenia.
 
 <div class="nav-card">
 
-### 03
-
 ## PUBLIKACJE NAUKOWE
 
 Artykuły, raporty i publikacje.
@@ -96,7 +90,13 @@ Artykuły, raporty i publikacje.
 
 <div class="nav-card">
 
-### 04
+## DORADZTWO
+
+Podnieś swoje umiejętności
+
+</div>
+
+<div class="nav-card">
 
 ## O NAS
 
@@ -105,8 +105,6 @@ Poznaj Laboratorium Wiedzy.
 </div>
 
 <div class="nav-card">
-
-### 05
 
 ## KONTAKT
 
