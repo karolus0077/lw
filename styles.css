@@ -252,7 +252,7 @@ main.content {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 
-  width: 80%;
+  width: 87%;
   max-width: 1450px;
 
   margin: 0 auto;
